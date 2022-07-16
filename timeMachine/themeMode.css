@@ -18,7 +18,7 @@ body[data-theme= "dark"]{
 --hover-color: #EDEDED;
 --text-color: #1f1f1f;
 --SEC-color: #1a1a1a;
---color: #f0f0f0;
+--color: #e13333;
 }
 body{
 display: flex;
@@ -50,7 +50,7 @@ height: 40px;
 border-radius: 20px;
 margin-top: 1em;
 border: none;
-box-shadow:0 0 10px rgba(43, 41, 41, 0.925);
+box-shadow:0 0 10px rgba(222, 16, 16, 0.92);
 cursor: pointer;
 background: var( --Sec-color);
 color: var(--color);
@@ -70,6 +70,9 @@ left: -5px;
 transform: translate( -50%);
 border-radius: 10px;
 overflow: hidden;
+}
+.darkie{
+    color: black;
 }
 .darkMode .box{
 position: absolute;
