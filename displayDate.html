@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Events</title>
+</head>
+<body>
+<h2>JavaScript HTML Events</h2>
+<p>Kliko butonin per te pare oren</p>
+
+<button onclick="displayDate()">Ora eshte?</button>
+
+<script>
+    function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+    }
+</script>
+
+<p id="demo"></p>
+</body>
+</html>
